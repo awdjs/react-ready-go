@@ -3,7 +3,18 @@
 import { fromJS } from 'immutable';
 
 
-const initialState = fromJS({});
+const initialState = fromJS({
+  todos: [
+    {
+      id: '1',
+      title: 'first task for today',
+    },
+    {
+      id: '2',
+      title: 'the second task, wow that\'s going so fast',
+    }
+  ]
+});
 
 
 function mainReducer (state = initialState, action) {
