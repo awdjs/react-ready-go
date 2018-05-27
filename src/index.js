@@ -23,7 +23,7 @@ const store = initStore([ routerMiddleware ]);
 ReactDom.render(
   <Provider store={store}>
     <ConnectedRouter history={history}>
-      <Route exact path="/hello-world" component={Main} />
+      <Route exact path="/" component={Main} />
     </ConnectedRouter>
   </Provider>,
   document.getElementById('app-root')

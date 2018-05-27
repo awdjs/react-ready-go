@@ -10,16 +10,15 @@ other stuff are taken care of.
  - [x] React
  - [x] Redux
  - [x] React Redux Router 
- - [ ] Sagas 
+ - [x] Sagas 
  - [x] Reselect 
  - [x] Immutable 
  - [x] Styled Components 
  - [ ] Normalizr
- - [x] Parcel
+ - [x] Webpack
  - [ ] Docker
  - [ ] SSR support
  - [ ] i18n
  - [ ] Lazy Loading Components
-  
   
   
